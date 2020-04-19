@@ -8,7 +8,7 @@ public class TestBCrypt {
     public void testBCrypt(){
 
         //对密码进行加密
-        String hashpw = BCrypt.hashpw("456", BCrypt.gensalt());
+        String hashpw = BCrypt.hashpw("secret", BCrypt.gensalt());
         System.out.println(hashpw);
 
         //校验密码

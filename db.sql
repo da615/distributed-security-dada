@@ -40,7 +40,7 @@ CREATE TABLE `oauth_client_details` (
 
 /*Data for the table `oauth_client_details` */
 
-insert  into `oauth_client_details`(`client_id`,`resource_ids`,`client_secret`,`scope`,`authorized_grant_types`,`web_server_redirect_uri`,`authorities`,`access_token_validity`,`refresh_token_validity`,`additional_information`,`create_time`,`archived`,`trusted`,`autoapprove`) values ('c1','res1','$2a$10$NlBC84MVb7F95EXYTXwLneXgCca6/GipyWR5NHm8K0203bSQMLpvm','ROLE_ADMIN,ROLE_USER,ROLE_API','client_credentials,password,authorization_code,implicit,refresh_token','http://www.baidu.com',NULL,7200,259200,NULL,'0000-00-00 00:00:00',0,0,'false'),('c2','res2','$2a$10$NlBC84MVb7F95EXYTXwLneXgCca6/GipyWR5NHm8K0203bSQMLpvm','ROLE_API','client_credentials,password,authorization_code,implicit,refresh_token','http://www.baidu.com',NULL,31536000,2592000,NULL,'0000-00-00 00:00:00',0,0,'false');
+insert  into `oauth_client_details`(`client_id`,`resource_ids`,`client_secret`,`scope`,`authorized_grant_types`,`web_server_redirect_uri`,`authorities`,`access_token_validity`,`refresh_token_validity`,`additional_information`,`create_time`,`archived`,`trusted`,`autoapprove`) values ('c1','res1','$2a$10$qvASbqCWe1H8WNZgrF8eAuipmXbFL0Wzn9RWJALlrJaDoKXGfEBgy','ROLE_ADMIN,ROLE_USER,ROLE_API','client_credentials,password,authorization_code,implicit,refresh_token','http://www.baidu.com',NULL,7200,259200,NULL,'2020-04-19 16:20:18',0,0,'false'),('c2','res2','$2a$10$qvASbqCWe1H8WNZgrF8eAuipmXbFL0Wzn9RWJALlrJaDoKXGfEBgy','ROLE_API','client_credentials,password,authorization_code,implicit,refresh_token','http://www.baidu.com',NULL,31536000,2592000,NULL,'2020-04-19 16:20:22',0,0,'false');
 
 /*Table structure for table `oauth_code` */
 

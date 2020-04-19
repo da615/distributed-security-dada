@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableHystrix
 @EnableFeignClients(basePackages = {"com.dada.security.distributed.uaa"})
 public class UAAServer {
-public static void main(String[] args) {
-SpringApplication.run(UAAServer.class, args);
-}
+    public static void main(String[] args) {
+        SpringApplication.run(UAAServer.class, args);
+    }
 }

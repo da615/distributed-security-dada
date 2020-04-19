@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>distributed‐security‐order-dada</module>
+        <module>distributed‐security‐discovery-dada</module>
+        <module>distributed‐security‐gateway-dada</module>
+
     </modules>
     <packaging>pom</packaging>
 
